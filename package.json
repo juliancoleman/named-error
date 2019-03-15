@@ -1,0 +1,28 @@
+{
+  "name": "@juliancoleman/named-error",
+  "version": "1.0.0",
+  "description": "A tiny library for creating custom errors",
+  "main": "build/index.js",
+  "repository": "git@github.com:juliancoleman/named-error",
+  "author": "Julian Coleman <jcoleman.engineering@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.prod.json",
+    "lint": "tslint -p tsconfig.json",
+    "postinstall": "npm run build",
+    "test": "jest --config ./jest.config.js -i",
+    "verify": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "jest": "^24.5.0",
+    "jest-spec-reporter": "^1.0.5",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  }
+}

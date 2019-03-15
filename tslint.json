@@ -1,0 +1,19 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "no-magic-numbers": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/node_modules/**"
+    ]
+  }
+}

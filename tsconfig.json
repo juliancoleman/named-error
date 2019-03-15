@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "outDir": "build",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "inlineSourceMap": true
+  },
+  "include": [
+    "index.ts",
+    // "./index.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
